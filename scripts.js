@@ -140,4 +140,12 @@ ADD_BOOK.addEventListener('click', function(event) {
   let newBook = new Book(title, author, pages, hasRead);
 
   addBookToLibrary(newBook);
+  resetForm();
 });
+
+// Reset form
+const resetForm = () => {
+  document.querySelector('#title').value = '';
+  document.querySelector('#author').value = '';
+  document.querySelector('#pages').value = '';
+}
