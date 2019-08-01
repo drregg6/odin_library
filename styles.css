@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+.card-list {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.card {
+  width: 18rem;
+  position: relative;
+}
+
+.read-yes {
+  border-color: green;
+  background: rgba(144,238,144,1)
+}
+
+.read-no {
+  border-color: red;
+  background: rgba(240,128,128,1)
+}
+
+.btn-remove-book {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  padding: 0;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.btn-has-read {
+  width: 50%;
+  margin: 0 auto;
+}
